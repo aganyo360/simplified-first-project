@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+background-color: #0afddd;
+align-items: center;
+
+}
+nav > span {
+    font-weight: 100px;
+}
+nav > h1{
+    font-size: 20px;
+    font-weight: 20px;
+}
+.nav-link li{
+    padding: 20px;
+}
+.nav-link ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+.nav-link a{
+font-size: 20px;
+color: black;
+}
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #eceaeade;
+height: 600px;
+}
+.header-section h1{
+    font-size: 30px;
+    
+}
+.header-section p{
+    font-size: 23px;
+    margin-top: 20px;
+    
+}
+.header-section button{
+    background-color: #69d3ce;
+    width: auto;
+    height: auto;
+    padding: 13px;
+    margin-top: 20px;
+    border: 0px ;
+
+}
+.header-section button > a{
+   font-size: 19px;
+   text-decoration: none;
+   color: white;
+}
+.header img{
+    margin-left: 30px;
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.about-header h1{
+    margin-top: 20px;
+   
+    text-align: center;
+}
+.about-section img{
+    height: 185px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 55px;
+
+}
+.discord-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #b0ece2;
+
+}
+.discord-section img{
+    height: 185px;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 80px;
+
+}
+.discord-header h1{
+    margin-bottom: 40px;
+}
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+    background-color: #baeff3cc;
+  
+}
+.contact-section h1{
+    margin-top: 40px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0afddd;
+    height: 150px;
+}
+footer > ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;    
+}
+
+.footer-list-wrapper li > a {
+color: black;
+font-size: 20px;
+padding: 20px;
+}
